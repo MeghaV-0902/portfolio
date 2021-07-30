@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Megha-Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="C:\Users\Megha\Desktop\MEGHA files\PRESIDENCY UNIVERSITY\extra courses\web development\portfolio\employee.png"
+  </head>
+  <body>
+  <div class="nav-div">
+  <img src="C:\Users\Megha\Desktop\MEGHA files\PRESIDENCY UNIVERSITY\extra courses\web development\portfolio\cactus.png" class="cactus">
+    <nav class="navbar">
+      <ul class="one-line">
+        <li class="nav-items btn"><a href="#HOME">Home</a></li>
+        <li class="nav-items btn"><a href="#ABOUT">About</a></li>
+        <li class="nav-items btn"><a href="">Education</a></li>
+        <li class="nav-items btn"><a href="">Skills</a></li>
+        <li class="nav-items btn"><a href="">Contact me</a></li>
+      </ul>
+    </nav>
+  </div>
+  <div>
+    <a id="HOME"></a>
+    <img class="welcome"src="sage_mesg.png" alt="">
+  </div>
+  <div>
+    <img class="profile-pic"src="profile.jpg" alt="">
+   <p class="about-heading"><a id="ABOUT"></a>ABOUT</p>
+   <p class="about-para">I am a student looking for a career opportunity in a reputed organization where I can use the skills acquired during my training, to begin my career and grow to be an experienced professional in this corporate environment.</p>
+  </div>
+
+  </body>
+</html>

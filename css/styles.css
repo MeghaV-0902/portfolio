@@ -1,0 +1,418 @@
+body{
+  margin: 0;
+  background-color: black;
+  min-width: 1000px;
+  font-family: 'Quicksand', sans-serif;
+}
+a{
+  color: white;
+  text-decoration: none;
+}
+a:hover{
+  color:  #48574E;
+}
+
+
+
+.about{
+  background-image: url(https://s6.gifyu.com/images/profiledc1e2e7e04016813.jpg);
+  height: 100%;
+  width: 100%;
+}
+
+.about-heading{
+  font-family: 'STIX Two Text', serif;
+  display: inline;
+  font-size: 3rem;
+  color: #d4d9b8;
+  border-bottom: 1px solid;
+  padding-bottom: 3px;
+}
+.about-para{
+  font-size: 1.5rem;
+  color: #DFEEEA;
+}
+.about-content{
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 150px;
+  padding-bottom: 150px;
+}
+.about-align{
+  width: 40%;
+  margin: 10px 0 0 50%;
+}
+
+.about-main{
+  padding-bottom: 80px;
+}
+.btn {
+  -webkit-border-radius: 19;
+  -moz-border-radius: 19;
+  border-radius: 19px;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 14px;
+  background: #000000;
+  padding: 5px 10px 5px 10px;
+  border: solid black 1px;
+  text-decoration: none;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.btn:hover {
+  background: #5E8B7E;
+  color: black;
+  text-decoration: none;
+}
+
+.cactus{
+  height: 5rem;
+  margin: 0;
+}
+.edu-heading{
+  font-family: 'STIX Two Text', serif;
+  font-size: 3rem;
+  color: black;
+  text-align: center;
+  padding-bottom: 3px;
+  display: inline;
+  margin-left: auto;
+  border-bottom: 1px solid;
+
+}
+.edu-up-div{
+  text-align: center;
+  padding-bottom: 50px;
+}
+.edu-outer{
+  background-color: #9db49f;
+  padding-top: 40px;
+}
+
+.edu-table{
+  align-content: center;
+  margin-top: 50px;
+  width: 50%;
+  margin: 50px auto;
+  font-size: 1rem;
+}
+
+.edu-link{
+  color: black;
+  text-decoration: none;
+}
+.edu-link :hover{
+  color: #2F5D62;
+}
+
+table{
+  width: 100%;
+  text-align: left;
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+.right-cell
+{
+  text-align: left;
+  padding-left: 40px;
+  line-height: 3rem;
+}
+.right-cell-border
+{
+  border-bottom: 0.05rem solid #48574E;
+}
+
+.left-cell{
+font-size: 1.5rem;
+text-align: right;
+padding-right: 40px;
+padding-top: 0.5rem;
+color: #272E2A;
+border-right: 5px solid #48574E;
+}
+
+.heading{
+  font-family: 'STIX Two Text', serif;
+  text-decoration: underline;
+  font-size: 2rem;
+  font-weight:bold;
+}
+
+.middle-container{
+  background: black;
+  margin-bottom: 0;
+}
+.my-name{
+  font-size: 2rem;
+}
+
+.nav-items{
+  display: inline;
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+    }
+.nav-div{
+  z-index: 1;
+  width: 100%;
+  position: fixed;
+  padding: 1rem;
+  background-color: black;
+  color: white;
+}
+.navbar{
+  padding-right:1rem;
+  padding-top: 2rem;
+  float: right;
+  display: block;
+  color: white;
+  z-index: 5;
+}
+.one-line{
+  text-align: right;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+}
+.profile-pic{
+  width: 40%;
+  float: left;
+  padding-left: 15%;
+  padding-right: 20px;
+}
+.skill-out
+{
+  text-align: center;
+  background-color: black;
+  padding-top: 70px;
+  padding-bottom: 50px;
+}
+.skill-heading{
+  font-family: 'STIX Two Text', serif;
+  font-size: 3rem;
+  color: #d4d9b8;
+  text-align: center;
+  padding-bottom: 3px;
+  margin-bottom: 30px;
+  display: inline;
+  margin-left: auto;
+  border-bottom: 1px solid;
+
+}
+.grid-container {
+  margin: 0 10%;
+  align-items: center;
+  display: grid;
+  color: white;
+  grid-template-columns: auto auto auto;
+  background-color: black;
+  padding:30px 10px 30px 10px;
+  justify-content: space-around;
+  justify-items: center;
+  z-index: 2
+}
+
+.grid-item
+{
+  width: 60%;
+  padding: 20px;
+  text-align: center;
+}
+.grid-img{
+  width: 100%;
+}
+.welcome{
+  padding-top: 7rem;
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.cert-outer{
+  padding-top: 50px;
+  text-align: center;
+  position: relative;
+  color: white;
+  background-color: #9db49f;
+  padding-bottom: 50px;
+}
+
+.cert-heading{
+  font-family: 'STIX Two Text', serif;
+  margin-bottom: 30px;
+  color: black;
+  display: inline;
+  border-bottom: 1px solid black;
+  font-size: 3rem;
+}
+/*slideshow classes and elements*/
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 900px;
+  position: relative;
+  margin: auto;
+  padding-top: 50px;
+
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+  z-index: 2;
+  border-bottom: 1px solid black;
+  border-top: 4px solid black;
+  border-left: 4px solid black;
+  border-right: 4px solid black;
+  background-color: black;
+  z-index: -1;
+  width: 80%;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  right: 95.5%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: grey;
+  font-size: 15px;
+  padding: 8px 0;
+  position: absolute;
+  left: 0;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color:grey;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 50px;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #5b6f63;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #d4d9b8;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+/*-----------------------------------------------------------------*/
+.last-line {
+  padding-bottom: 20px;
+}
+
+.bottom-margin {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+
+.contact-me {
+  padding-bottom: 1rem;
+  color: #d4d9b8;
+  text-align: center;
+}
+h2{
+  font-family: 'STIX Two Text', serif;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+.btn1 {
+  -webkit-border-radius: 19;
+  -moz-border-radius: 19;
+  border-radius: 19px;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 14px;
+  background: #000000;
+  padding: 5px 10px 5px 10px;
+  border: solid black 1px;
+  text-decoration: none;
+  margin-left: 5px;
+  margin-right: 5px;
+  border: 1px solid #5E8B7E;
+}
+
+.btn1:hover {
+  background: #5E8B7E;
+  color: black;
+  text-decoration: none;
+}
+.copy-out{
+  padding-top: 10px;
+  margin-top: 20px;
+}
+
+.linkdin {
+  color: #E4F9F5;
+  padding-right: 30px;
+  text-decoration: none;
+  padding-bottom: 10px;
+}
+
+.github {
+  color: #E4F9F5;
+  padding-left: 30px;
+  text-decoration: none;
+}
