@@ -3,6 +3,7 @@ body{
   background-color: black;
   min-width: 1000px;
   font-family: 'Quicksand', sans-serif;
+  color: white;
 }
 a{
   color: white;
@@ -89,6 +90,7 @@ a:hover{
 .edu-outer{
   background-color: #9db49f;
   padding-top: 40px;
+  color: black;
 }
 
 .edu-table{
